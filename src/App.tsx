@@ -16,7 +16,6 @@ function App() {
   const [slidesPerView, setSlidesPerView] = useState(3);
 
   const [data, setData] = useState<Project[]>([]);
-  const [page, setPage] = useState(0);
   const [allLoaded, setAllLoaded] = useState(false);
   const limit = 12;
 
