@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container {
+  width: 100%;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #1A838E;
+}
+
+.all {
+  position: absolute;
+  bottom: -8px;
+  right: 0;
+  color: grey;
+  font-size: 15px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.all-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-pagination-bullet {
+  background-color: white !important;
+  border: 1px solid black;
+  padding: 0.1rem !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #DEE2E6 !important;
+  border: none;
+  padding: 0.2rem !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #AFB8C1 !important;
+}

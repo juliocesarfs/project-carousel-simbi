@@ -1,0 +1,93 @@
+.card {
+    background-color: white;
+    padding: 1rem;
+    min-height: fit-content;
+    margin: 0.8rem;
+    margin-bottom: 40px;
+    border-radius: 0.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin-bottom: 80px;
+}
+
+.card .type {
+    background-color: #FFF2DB;
+    width: fit-content;
+    padding: 7px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: #C6994E;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-radius: 0.3rem;
+}
+
+.card h1 {
+    font-size: 17px;
+    max-height: 25px;
+    overflow: hidden;
+}
+
+.card .summary {
+    font-size: 0.9rem;
+    max-height: 5rem;
+    overflow: hidden;
+    color: grey;
+}
+
+.location p {
+    font-size: 0.95rem;
+    color: grey;
+    margin-bottom: 0;
+
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+}
+
+.approved,
+.captured {
+    display: flex;
+    flex-direction: row;
+    color: #4A4A4A;
+}
+
+.approved {
+    height: 2rem;
+}
+
+.approved .value-priced {
+    margin-left: 40px;
+}
+
+.captured .value-priced {
+    margin-left: 50px;
+}
+
+.value-priced {
+    font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+    align-items: center;
+}
+
+.buttons button {
+    width: 18rem;
+    height: 2.8rem;
+    border: none;
+    font-size: 16px;
+    color: #C8C4C7;
+    background-color: #FAFBFD;
+    border-radius: 0.2rem;
+    font-weight: 500;
+}
+
+.buttons .heart .icon {
+    font-size: 3rem;
+    color: grey;
+}
