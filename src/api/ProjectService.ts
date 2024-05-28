@@ -10,7 +10,7 @@ export class ProjectService {
 
         try {
             const url = loadAll
-                ? this.baseUrl
+                ? this.baseUrl + '/api/project/rouanet'
                 : `${this.baseUrl}/api/project/rouanet?page=${page}&limit=${limit}`;
             const response = await fetch(url);
             const rawData = await response.json();
